@@ -1,0 +1,3344 @@
+
+
+
+
+/* Все теги */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+ background: black;
+ width: 100%;
+ height: 100%;
+ box-shadow: 0 12px 16px -6px black;
+}
+
+
+a {
+	text-decoration: none;
+
+}
+
+li {
+	list-style-type: none;
+}
+
+aside{
+	margin-top: 1%;
+}
+
+
+main {
+	margin-left: 30%;
+	margin-top: -150px;
+}
+
+hr {
+	margin-top: 20px;
+
+	padding: 0;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+
+
+.white {
+  color: #fff;
+}
+
+.black {
+	color: #000;
+}
+
+
+
+
+/* Шабка */
+
+
+
+.haider-main {
+	
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.haider-main,  .content-logo, .logo,  .content-link, .haider-link{
+	display: flex;
+	align-items: stretch;
+
+}
+
+.logo {
+	background: url('../images/logo.jpg') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 80px;
+	width: 80px;
+}
+
+.menu {
+	display: none;
+}
+
+
+
+.content-link {
+	margin-top: -50px;
+	margin-left: 500px;
+}
+
+.haider-link {
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 25px;
+	background-color: blue;
+	
+	margin-left: 20px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+/* поговое меню */
+
+
+
+.aside-ul {
+	padding: 14px 25px;
+	font-size: 40px;
+	margin-right: 80%;
+
+	box-shadow: 0 12px 16px -6px black;
+}
+.aside-link {
+	text-align: top;
+	color: black;
+}
+
+
+
+
+.ride {
+
+	display: flex;
+  	flex-direction: column;
+
+	margin-left: 1590px;
+	margin-top: -120px;
+
+
+    float:left;
+    position:relative;
+    
+
+    width: 260px;
+    height: 150px;
+    
+} 
+
+#fonk-img-sun {
+	background: url('../images/san.png') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+	height: 100px;
+	width: 100px;
+}
+
+
+
+
+
+#fonk-img-lun {
+	display: none;
+	background: url('../images/lun.png') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+	height: 100px;
+	width: 100px;
+}
+
+
+
+
+#people-white {
+	background: url('../images/pepol-white.jpg') no-repeat;
+	background-size: no-repeat;
+	background-position: left;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+	height: 90px;
+	width: 90px;
+}
+
+
+#people-black {
+	display: none;
+	background: url('../images/people-block.jpg') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+	height: 90px;
+	width: 90px;
+}
+
+
+#cntr {
+	width: 100px;
+	height: 100px;
+
+
+}
+
+
+
+
+
+aside.range-input {
+	width: 200px;
+	height: 200px;
+}
+
+
+/* главное меню */
+
+
+.conteiner-main {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 190px;
+}
+
+.card-main-page {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 170px;
+	margin-bottom: 20px;
+}
+
+
+.mini-card {
+	margin-top: 90px;
+	margin-left: 800px;
+	width: 290px;
+	height: 50px;
+	font-size: 20px;
+	text-align: left;
+	box-shadow: 0 12px 16px -6px black;
+
+} 
+
+.main-text {
+	margin-top: 90px;
+	margin-left: 450px;
+	width: 290px;
+	height: 50px;
+	font-size: 25px;
+	text-align: center;
+}
+.img-main, .page-img-fon {
+	width: 1100px;
+	height: 1100px;
+}
+
+
+.text {
+	text-align: center;
+	font-size: 30px;
+}
+
+.text-contntent {
+	text-align: center;
+	font-size: 25px;
+}
+
+.text-contntent-fon {
+	margin-left: 350px;
+	font-size: 25px;
+}
+
+
+.main-link {
+
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 25px;
+	background-color: blue;
+	margin-left: 850px;
+	margin-top: 30px;
+
+
+}
+
+.main-link-page {
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 20px;
+	
+
+
+	margin-left: 970px;
+	margin-top: 20px;
+
+	width: 60px;
+	height: 20px;
+	
+} 
+
+.main-link-link {
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 20px;
+	background-color: blue;
+}
+
+
+/* навигация по страничная */
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+        
+.pagination  {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 390px;
+    padding: 0;
+    display: flex;
+
+    color: #ffffff;
+	text-align: center;
+	padding: 10px 20px;
+	background-color: black;
+	
+
+}
+        
+.pagination li  {
+    margin: 0 1px;
+    font-size: 70px;
+    background: wheat;
+    border: 20px 20px;
+    text-align: center;
+}
+
+.link-paginata {
+	color: #ffffff;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.link-paginata-string {
+	border-radius: 40%;
+	background-color: white;
+	width: 90px;
+    height: 90px;
+	font-size: 50px;
+	color: wheat;
+}
+
+.link-paginata-text {
+	color: #ffffff;
+	margin-left: 40px;
+    border-radius: 40%;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+
+/* подвал */ 
+
+.footer {
+	background: black;
+	widows: 100%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+
+/* формы */
+
+
+
+.form-main {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 290px;
+}
+
+
+
+.form-label {
+	font-size: 30px;
+}
+
+
+
+.form-content-register, .form-content-contact,  .form-content-login {
+	margin-left: 450px;
+}
+
+
+
+
+.form-button-login, .form-button {
+	width: 230px;
+	height: 70px;
+
+	margin-left: 470px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-input {
+	 padding:10px;
+  	 border-radius:10px;
+}
+
+/* ______________________________________________________________________________________________________________________________ */
+
+/* адабтивная верска */
+
+
+
+@media (max-width:1899px){
+
+
+.ride {
+	margin-left: 1499px;
+}
+
+.conteiner-main {
+	margin-top: 300px;
+} 
+
+
+.form-main {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.img-main, .page-img-fon {
+	width: 910px;
+	height: 910px;
+}
+
+.main-link {
+	margin-left: 760px;
+}
+
+.aside-ul { 
+
+margin-right: 70%;
+
+}
+
+.text-contntent, .text {
+	margin-right: 100px;
+}
+
+
+.mini-card {
+	margin-left: 610px;
+	margin-bottom: 20px;
+}
+
+.conteiner-main {
+	margin-top: 300px;
+
+}
+
+.content-link {
+	margin-top: -50px;
+	margin-left: 300px;
+}
+
+
+
+.main-text {
+	margin-left: 350px;
+}
+
+.text-contntent-fon{
+ margin-left: 250px;
+}
+
+.main-link-page{
+	margin-left: 800px;
+	margin-top: 20px;
+}
+
+.card-main-page {
+	margin-top: 20px;
+}
+	
+}
+
+@media (max-width:1799px){
+	.ride {
+		margin-left: 1299px;
+	}
+
+	header {
+		width: 98%;
+		height: 100%;
+	}
+
+	.content-link {
+	margin-top: -50px;
+	margin-left: 200px;
+	}
+
+.content-logo {
+	margin-right: 600px;
+	margin-left: -50px;
+}
+
+
+.form-content-register, .form-content-login, .form-content-contact {
+	margin-left: 350px;
+}
+
+
+.form-button, .form-button-login {
+	margin-left: 370px;
+}
+
+.card-main-page {
+	margin-top: 20px;
+}
+
+	
+}
+
+@media (max-width:1599px){
+	.ride {
+		margin-left: 1299px;
+	}
+
+	header {
+		width: 98%;
+		height: 100%;
+	}
+
+	.content-link {
+	margin-top: -50px;
+	margin-left: 200px;
+	}
+
+.content-logo {
+	margin-right: 600px;
+	margin-left: -50px;
+	}
+
+
+
+
+
+
+
+.form-content-register, .form-content-login, .form-content-contact {
+	margin-left: 250px;
+	}
+
+
+.form-button, .form-button-login {
+	margin-left: 270px;
+	}
+
+
+.main-link {
+	margin-left: 690px;
+	} 
+
+
+ .img-main {
+ 	width: 750px;
+ 	height: 750px;
+
+ 	margin-left: 23px;
+ }
+
+ .page-img-fon {
+	width: 510px;
+	height: 510px;
+	margin-left: 250px;
+	margin-top: 20px;
+	}
+
+.text-contntent-fon {
+	font-size: 20px;
+	margin-left: 320px;
+}
+
+.main-link-page {
+	margin-left: 450px;
+}
+
+
+	
+}
+
+
+@media (max-width:1499px){
+	.main-link {
+		margin-left: 650px;
+	}
+
+	.img-main {
+		width: 710px;
+		height: 710px;
+	}
+
+	.mini-card {
+		margin-left: 450px;
+	}
+
+	.page-img-fon {
+	width: 510px;
+	height: 510px;
+	margin-left: 250px;
+	margin-top: 20px;
+	}
+
+
+.form-label {
+	font-size: 30px;
+}
+
+
+
+.form-content-register, .form-content-contact,  .form-content-login {
+	margin-left: 250px;
+}
+
+
+
+
+.form-button-login, .form-button {
+	width: 130px;
+	height: 70px;
+
+	margin-left: 370px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 10px 15px;
+    font-size: 15px;
+    
+}
+
+
+
+}
+
+
+
+@media (max-width:1399px){
+	.main-link {
+		margin-left: 590px;
+	}
+
+	.img-main {
+		width: 710px;
+		height: 710px;
+	}
+
+
+	.page-img-fon {
+	width: 510px;
+	height: 510px;
+	margin-left: 150px;
+	margin-top: 20px;
+	}
+
+	.text-contntent-fon {
+		margin-left: 250px;
+	}
+
+	.main-text {
+		margin-left: 250px;
+	}
+
+
+	.main-link-link {
+		margin-left: -150px;
+	}
+
+	.mini-card {
+		margin-left: 450px;
+	}
+
+	.ride {
+		margin-left: 1099px;
+	}
+
+	.main-link-page {
+	margin-left: 450px;
+	}
+
+
+	.form-content-register, .form-content-contact,  .form-content-login {
+		margin-left: 50px;
+	}
+
+
+
+
+	.form-button-login, .form-button {
+	width: 130px;
+	height: 70px;
+
+	margin-left: 170px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 10px 15px;
+    font-size: 15px;
+    
+	}
+
+	.form-input {
+	 padding: 6px;
+  	 border-radius: 10px;
+	}
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:1299px) { 
+
+header {
+	width: 140%;
+	height: 100%;
+}
+
+.content-link {
+	margin-right: 299PX;
+}
+
+.aside-ul {
+	margin-right: 70%;
+}
+
+.ride {
+	margin-left: 1099px;
+}
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 250px;
+}
+
+.main-link {
+		margin-left: 330px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 25px;
+	margin-left: 150px;
+}
+
+.text-contntent {
+	margin-bottom: 50px;
+
+}
+
+.pagination {
+	margin-left: 250px;
+}
+
+}
+
+
+
+
+@media (max-width:1199px) { 
+
+header {
+	width: 130%;
+	height: 100%;
+}
+
+
+
+.content-link {
+	margin-right: 299PX;
+}
+
+.aside-ul {
+	margin-right: 60%;
+}
+
+.ride {
+	margin-left: 1099px;
+}
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 190px;
+}
+
+.main-link {
+		margin-left: 279px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 25px;
+	margin-left: 150px;
+}
+
+.text-contntent {
+	margin-bottom: 50px;
+
+}
+
+.pagination {
+	margin-left: 250px;
+}
+
+.img-main {
+		width: 410px;
+		height: 410px;
+		margin-left: 120px;
+	}
+
+
+	.page-img-fon {
+	width: 410px;
+	height: 410px;
+	margin-left: 120px;
+	margin-top: 20px;
+	}
+
+	.text-contntent-fon {
+		margin-left: 150px;
+	}
+
+	.main-text {
+		margin-left: 190px;
+	}
+
+
+	.main-link-link {
+		margin-left: -390px;
+	}
+
+}
+
+
+
+@media (max-width:999px) { 
+
+header {
+	width: 130%;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+.content-link {
+	margin-right: 299PX;
+}
+
+.aside-ul {
+	margin-right: 50%;
+}
+
+.ride {
+	margin-left: 935px;
+	
+}
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 100px;
+}
+
+.main-link {
+		margin-left: 219px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 25px;
+	margin-left: 150px;
+}
+
+.text-contntent {
+	margin-bottom: 50px;
+
+}
+
+.pagination {
+	margin-left: 250px;
+}
+
+.img-main {
+		width: 410px;
+		height: 410px;
+		margin-left: 20px;
+	}
+
+
+.page-img-fon {
+	width: 410px;
+	height: 410px;
+	margin-left: 50px;
+	margin-top: 20px;
+	}
+
+	.text-contntent-fon {
+		margin-left: 80px;
+	}
+
+	.main-text {
+		margin-left: 130px;
+
+	}
+
+
+	.main-link-link {
+		margin-left: -490px;
+	}
+
+}
+
+
+
+@media (max-width:899px) { 
+
+header {
+	width: 130%;
+	height: 100%;
+	margin-bottom: 80px;
+}
+
+.content-link {
+	margin-right: 299PX;
+}
+
+.aside-ul {
+	margin-right: 50%;
+}
+
+.ride {
+	margin-left: 935px;
+	
+}
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 95px;
+}
+
+.main-link {
+		margin-left: 180px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 25px;
+	margin-left: 150px;
+}
+
+.text-contntent {
+	margin-bottom: 50px;
+
+}
+
+.pagination {
+	margin-left: 130px;
+}
+
+.img-main {
+		width: 310px;
+		height: 310px;
+		margin-left: 80px;
+	}
+
+
+.aside-link {
+	font-size: 25px;
+}
+
+
+
+.page-img-fon {
+	width: 350px;
+	height: 350px;
+	margin-left: 20px;
+	margin-top: 20px;
+	}
+
+	.text-contntent-fon {
+		margin-left: 10px;
+		font-size: 20px;
+	}
+
+	.main-text {
+		margin-left: 50px;
+		font-size: 20px;
+
+	}
+
+
+	.main-link-link {
+		margin-left: -590px;
+	}
+
+.form-button-login, .form-button {
+	width: 110px;
+	height: 70px;
+
+	margin-left: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 5px 10px;
+    font-size: 12px;
+    
+	}
+
+
+}
+
+
+
+
+@media (max-width:799px) { 
+
+header {
+	width: 130%;
+	height: 100%;
+}
+
+
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+
+.content-link {
+	margin-right: 59PX;
+}
+
+.aside-ul {
+	margin-right: 60%;
+}
+
+.ride {
+	margin-left: 735px;
+	margin-top: 5px;
+}
+
+
+
+.mini-card {
+		margin-left: 35px;
+}
+
+.main-link {
+		margin-left: 120px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 25px;
+	margin-left: 80px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+.pagination {
+	margin-left: 60px;
+}
+
+.img-main, .page-img-fon {
+		width: 270px;
+		height: 270px;
+		margin-left: 20px;
+	}
+
+
+.aside-link {
+	font-size: 25px;
+}
+
+
+
+.text-contntent-fon {
+		margin-left: 30px;
+		font-size: 15px;
+	}
+
+
+.main-text {
+		margin-left: 30px;
+		font-size: 15px;
+
+	}
+
+
+
+
+	.main-link-link {
+		margin-left: -690px;
+	}
+
+
+
+
+
+	.form-content-register, .form-content-contact,  .form-content-login {
+		margin-left: 20px;
+	}
+
+
+
+
+	.form-button-login, .form-button {
+	width: 110px;
+	height: 70px;
+
+	margin-left: 39px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 10px 15px;
+    font-size: 15px;
+    
+	}
+
+	.form-input {
+	 padding: 6px;
+  	 border-radius: 10px;
+	}
+
+	.title-form {
+		font-size: 20px;
+	}
+
+
+}
+
+
+/* мини-мобилка */
+
+
+@media (max-width:699px) { 
+
+header {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	background: black;
+	widows: 90%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+.menu {
+	display: block;
+	background: url('../images/menu-vector-icon.jpg') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	height: 80px;
+	width: 80px;
+}
+
+.logo {
+	margin-left: 400px;
+}
+
+
+
+
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+
+
+
+
+.aside-ul {
+	margin-right: 70%;
+}
+
+.ride {
+	margin-left: 550px;
+	
+	
+	
+}
+
+
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+
+
+.main-link {
+		margin-left: 90px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 15px;
+	margin-left: 80px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+
+.mini-card {
+		margin-left: 3px;
+		width: 250px;
+		height: 50px;
+}
+
+
+.text-mini {
+	font-size: 17px;
+}
+
+.pagination {
+	margin-left: 30px;
+}
+
+.img-main{
+		width: 250px;
+		height: 250px;
+		margin-left: 20px;
+	}
+
+.page-img-fon {
+
+		width: 230px;
+		height: 230px;
+		margin-left: 30px;
+	}
+
+.text-contntent-fon {
+	font-size: 12px;
+}
+
+.main-link-link {
+		margin-left: -730px;
+	}
+
+h1.main-text {
+	margin-left: 2px;
+}
+
+
+.aside-link {
+	font-size: 19px;
+}
+
+
+.form-content-register, .form-content-contact,  .form-content-login {
+		margin-left: 5px;
+	}
+
+.form-label {
+	font-size: 17px;
+}
+
+.form-input {
+	width: 150px;
+	height: 10px;
+}
+
+
+.form-main {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 190px;
+}
+
+
+.form-button-login, .form-button {
+	width: 110px;
+	height: 70px;
+
+	margin-left: 89px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 10px 15px;
+    font-size: 15px;
+    
+	}
+
+
+
+
+	/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+
+ 
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+ 
+
+
+
+/* _____________________ */
+
+}
+
+
+
+@media (max-width:671px) {
+	.aside-ul {
+	margin-right: 60%;
+	}
+
+
+
+	/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+/* _____________________ */
+}
+
+
+
+
+
+
+
+@media (max-width:658px) {
+	.ride {
+	margin-left: 430px;
+		
+	}
+
+
+	.img-main {
+		width: 230px;
+		height: 230px;
+		margin-left: 10px;
+	}
+
+	.main-link {
+		margin-left: 70px;
+		padding: 5px 5px;
+
+	}
+
+
+.page-img-fon {
+
+		width: 230px;
+		height: 230px;
+		margin-left: 30px;
+	}
+
+.text-contntent-fon {
+	font-size: 12px;
+}
+
+.main-link-link {
+		margin-left: -730px;
+	}
+
+h1.main-text {
+	margin-left: 2px;
+}
+
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+/* _____________________ */
+ 
+}
+
+
+@media (max-width:631px) {
+	.mini-card {
+		margin-left: 3px;
+		width: 230px;
+		height: 50px;
+}
+
+
+.text-mini {
+	font-size: 15px;
+}
+
+.page-img-fon {
+
+		width: 230px;
+		height: 230px;
+		margin-left: 10px;
+	}
+
+.text-contntent-fon {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.main-link-link {
+		margin-left: -750px;
+	}
+
+h1.main-text {
+	margin-left: -20px;
+}
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+/* _____________________ */
+
+}
+
+
+@media (max-width:615px) {
+	.img-main {
+		width: 210px;
+		height: 210px;
+		margin-left: 10px;
+	}
+
+
+
+	.page-img-fon {
+
+		width: 230px;
+		height: 230px;
+		margin-left: 10px;
+	}
+
+.text-contntent-fon {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.main-link-link {
+		margin-left: -750px;
+	}
+
+h1.main-text {
+	margin-left: -20px;
+}
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+/* _____________________ */
+	
+}
+
+
+@media (max-width:599px) { 
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+.footer {
+	background: black;
+	widows: 90%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+.menu {
+	display: block;
+
+	background: url('../images/menu-vector-icon.jpg') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	height: 80px;
+	width: 80px;
+}
+
+.logo {
+	margin-left: 300px;
+}
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.content-link {
+	margin-right: 89PX;
+}
+
+.aside-ul {
+	margin-right: 60%;
+}
+
+.ride {
+	margin-left: 425px;
+	margin-top: 5px;
+}
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 10px;
+		margin-right: 20px;
+		width: 190px;
+		height: 50px;
+}
+
+.text-mini {
+	font-size: 15px;
+}
+
+.main-link {
+		margin-left: 60px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 19px;
+	margin-left: 60px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+.pagination {
+	margin-left: 30px;
+}
+
+.img-main, .page-img-fon {
+		width: 190px;
+		height: 190px;
+		margin-left: 20px;
+	}
+
+
+.aside-link {
+	font-size: 19px;
+}
+
+ .pagination li  {
+	font-size: 40px;
+}
+
+.link-paginata-string, .link-paginata-text {
+	
+	width: 90px;
+    height: 50px;
+	
+}
+
+a.link-paginata-string {
+	font-size: 40px;
+}
+
+
+.text-contntent-fon {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+
+h1.main-text {
+	margin-left: -20px;
+	font-size: 12px;
+}
+
+
+.form-main {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 90px;
+}
+
+
+.form-button-login, .form-button {
+	width: 110px;
+	height: 70px;
+
+	margin-left: 69px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 10px 15px;
+    font-size: 15px;
+    
+	}
+
+ /* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+@media (max-width:572px) {
+	.img-main, .page-img-fon {
+		width: 150px;
+		height: 150px;
+		margin-left: 15px;
+	}
+
+	.aside-ul {
+	margin-right: 40%;
+	width: 200px;
+	}
+
+	.main-link {
+		margin-left: 50px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 13px;
+	margin-left: 50px;
+}
+
+.text-contntent-fon {
+	font-size: 10px;
+	margin-left: 5px;
+}
+
+
+h1.main-text {
+	margin-left: -60px;
+	font-size: 10px;
+}
+
+.main-link-link {
+		margin-left: -820px;
+}
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+
+
+@media (max-width:551px) {
+	.img-main, .page-img-fon {
+		width: 150px;
+		height: 150px;
+		margin-left: 15px;
+	}
+
+	.aside-ul {
+	margin-right: 40%;
+		width: 200px;
+	}
+
+
+	.mini-card {
+		margin-left: 5px;
+		margin-right: 20px;
+
+		width: 170px;
+		height: 50px;
+	}
+
+	.text-mini {
+		font-size: 13px;
+	}
+
+	.main-link {
+		margin-left: 50px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 13px;
+	margin-left: 50px;
+}
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+@media (max-width:525px) {
+	.main-link {
+		margin-left: 30px;
+		padding: 3px 3px;
+
+	}
+
+
+	.mini-card {
+		margin-left: 1px;
+		margin-right: 20px;
+
+		width: 170px;
+		height: 50px;
+	}
+
+
+	.text-mini {
+		font-size: 11px;
+	}
+
+
+
+	/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+}
+
+
+@media (max-width:514px) {
+	.img-main, .page-img-fon {
+		width: 130px;
+		height: 130px;
+
+		margin-left: 15px;
+	}	
+
+
+	.main-link {
+		margin-left: 30px;
+		padding: 3px 3px;
+
+	}
+
+
+	.mini-card {
+		margin-left: 10px;
+		margin-right: 10px;
+
+		width: 150px;
+		height: 50px;
+	}
+
+
+	.text-mini {
+		font-size: 11px;
+	} 
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+
+@media (max-width:499px) { 
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+
+
+
+.footer {
+	background: black;
+	widows: 90%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+.menu {
+	display: block;
+
+	background: url('../images/menu-vector-icon.jpg') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	height: 50px;
+	width: 50px;
+}
+
+.logo {
+	margin-left: 300px;
+
+	height: 50px;
+	width: 50px;
+}
+
+
+img.fonk-img {
+	height: 50px;
+	width: 50px;
+}
+
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.content-link {
+	margin-right: 89PX;
+}
+
+.aside-ul {
+	margin-right: 50%;
+}
+
+.ride {
+	margin-left: 375px;
+	margin-top: 3px;
+}
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 49px;
+		margin-right: 15px;
+
+		width: 150px;
+		height: 50px;
+}
+
+.text-mini {
+	font-size: 12px;
+}
+
+.main-link {
+		margin-left: 60px;
+		padding: 5px 5px;
+
+	}
+
+.main-link-link {
+		margin-left: -820px;
+	}	 
+
+.text-contntent, .text {
+	font-size: 19px;
+	margin-left: 60px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+.text-contntent-fon {
+	font-size: 10px;
+	margin-left: 25px;
+}
+
+.pagination {
+	margin-left: 30px;
+}
+
+.img-main {
+	width: 150px;
+	height: 150px;
+	margin-left: 35px;
+}
+
+.page-img-fon {
+		width: 130px;
+		height: 130px;
+		margin-left: 15px;
+	} 
+
+
+.aside-link {
+	font-size: 19px;
+}
+
+ .pagination li  {
+	font-size: 40px;
+}
+
+.link-paginata-string, .link-paginata-text {
+	
+	width: 90px;
+    height: 50px;
+	
+}
+
+a.link-paginata-string {
+	font-size: 40px;
+}
+
+.conteiner-main {
+	margin-top: 430px;
+	margin-right: 30%;
+
+}
+
+
+.form-main {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 60px;
+}
+
+
+.form-button-login, .form-button {
+	width: 110px;
+	height: 70px;
+
+	margin-left: 49px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 10px 15px;
+    font-size: 15px;
+    
+	}
+
+
+	.form-label {
+		font-size: 20px;
+	}
+
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+
+@media (max-width:467px){
+	.img-main {
+		width: 150px;
+		height: 150px;
+		margin-left: 29px;
+	}
+
+
+
+
+	.page-img-fon {
+		width: 100px;
+		height: 100px;
+		margin-left: 15px;
+	}
+
+
+
+
+	.main-link-link {
+		margin-left: -860px;
+		font-size: 12px;
+	}
+
+	h1.main-text {
+	margin-left: -80px;
+	font-size: 10px;
+	}	
+
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+
+
+}
+
+
+@media (max-width:424px) {
+	.main-link {
+		margin-left: 40px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 21px;
+	margin-left: 40px;
+}
+
+.ride {
+	margin-left: 313px;
+	margin-top: 3px;
+}
+
+#fonk-img-sun {
+	width: 50px;
+	height: 50px;
+}
+
+
+#fonk-img-lun {
+	width: 50px;
+	height: 50px;
+}
+
+#people-white {
+	width: 50px;
+	height: 50px;
+}
+
+.card-main-page {
+	margin-right: 40%;
+}
+
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -80px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+}
+
+
+@media (max-width:399px) { 
+
+header {
+	width: 100%;
+	height: 100px;
+
+}
+
+.footer {
+	background: black;
+	widows: 90%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+.menu {
+	display: block;
+
+	background: url('../images/menu-vector-icon.jpg') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+
+	margin-top: 10px;
+	margin-left: 20px;
+	
+	height: 50px;
+	width: 50px;
+}
+
+.logo {
+	margin-left: 250px;
+}
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.content-link {
+	margin-right: 89PX;
+}
+
+.card-main-page {
+	margin-right: 30%;
+}
+
+.aside-ul {
+	margin-right: 50%;
+}
+
+.ride {
+	margin-left: 285px;
+	margin-top: 3px;
+}
+
+.footer {
+	widows: 500px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 49px;
+		margin-right: 15px;
+
+		width: 150px;
+		height: 50px;
+}
+
+.text-mini {
+	font-size: 12px;
+}
+
+.main-link {
+		margin-left: 60px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 19px;
+	margin-left: 60px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+.pagination {
+	margin-left: 30px;
+}
+
+.img-main {
+		width: 140px;
+		height: 140px;
+		margin-left: 25px;
+	}
+
+.page-img-fon {
+	width: 90px;
+	height: 90px;
+	margin-left: 25px;
+}
+
+
+.aside-link {
+	font-size: 19px;
+}
+
+ .pagination li  {
+	font-size: 40px;
+}
+
+.link-paginata-string, .link-paginata-text {
+	
+	width: 90px;
+    height: 50px;
+	
+}
+
+a.link-paginata-string {
+	font-size: 40px;
+}
+
+.conteiner-main {
+	margin-top: 350px;
+	margin-right: 10%;
+
+
+}
+
+
+h1.main-text {
+	margin-left: -75px;
+	font-size: 7px;
+	}
+
+
+
+.form-main {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 20px;
+}
+
+
+.form-button-login, .form-button {
+	width: 110px;
+	height: 70px;
+
+	margin-left: 32px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+	
+    padding: 10px 15px;
+    font-size: 15px;
+    
+	}
+
+
+	.form-label {
+		font-size: 20px;
+	}
+
+	.form-input {
+		display: flex;
+		 flex-direction: column;
+	}
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -60px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+@media (max-width: 336px) {
+.ride {
+	margin-left: 215px;
+	margin-top: 5px;
+}
+
+.logo {
+	margin-left: 200px;
+	height: 50px;
+	width: 50px;
+}
+
+.menu {
+	
+	margin-left: 20PX;	
+	height: 50px;
+	width: 50px;
+}
+
+img.fonk-img {
+	height: 50px;
+	width: 50px;
+}
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 80%;
+	margin-left: -60px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+
+
+
+}
+
+
+
+@media (max-width:299px) { 
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+.footer {
+	background: black;
+	widows: 90%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+.menu {
+	margin-left: 20PX;	
+	height: 50px;
+	width: 50px;
+}
+
+.logo {
+	margin-left: 190px;
+	height: 50px;
+	width: 50px;
+}
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.content-link {
+	margin-right: 89PX;
+}
+
+.aside-ul {
+	margin-right: 20%;
+}
+
+.ride {
+	margin-left: 175px;
+	margin-top: 5px;
+}
+
+img.fonk-img {
+	height: 40px;
+	width: 40px;
+}
+
+.footer {
+	widows: 300px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 3px;
+		margin-right: 20px;
+		width: 190px;
+		height: 50px;
+}
+
+.text-mini {
+	font-size: 13px;
+}
+
+.main-link {
+		margin-left: 30px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 13px;
+	margin-left: 50px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+.pagination {
+	margin-left: 20px;
+	width: 200px;
+}
+
+.img-main {
+		width: 130px;
+		height: 190px;
+		margin-left: 30px;
+	}
+
+
+.page-img-fon {
+		width: 90px;
+		height: 90px;
+		margin-left: 10px;
+	}
+
+h1.main-text {
+	margin-left: -89px;
+	font-size: 7px;
+	}
+
+.text-contntent-fon {
+	margin-left: 10px;
+}
+
+.main-link-link {
+		margin-left: -890px;
+		font-size: 16px;
+	}	
+
+
+.aside-link {
+	font-size: 19px;
+}
+
+ .pagination li  {
+	font-size: 40px;
+}
+
+.link-paginata-string, .link-paginata-text {
+	
+	width: 90px;
+    height: 50px;
+	
+}
+
+a.link-paginata-string {
+	font-size: 40px;
+}
+
+.conteiner-main {
+	margin-top: 300px;
+	margin-right: 5%;
+	margin-left: -20%;
+
+}
+
+.fonk-img {
+	background: url('../images/san.png') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+	height: 80px;
+	width: 80px;
+}
+
+ 
+.form-main {
+	box-shadow: 0 12px 16px -6px black;
+	margin-right: 20px;
+	margin-left: 10px;
+
+}
+
+.form-label {
+	font-size: 30px;
+}
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 83%;
+	margin-left: -60px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+
+@media (max-width:279px) { 
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+.footer {
+	background: black;
+	widows: 90%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+.menu {
+		
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+
+.logo {
+	margin-left: 150px;
+	height: 50px;
+	width: 50px;
+}
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.content-link {
+	margin-right: 89PX;
+}
+
+.aside-ul {
+	margin-right: 10%;
+}
+
+.ride {
+	margin-left: 175px;
+	margin-top: 5px;
+}
+
+img.fonk-img {
+	height: 40px;
+	width: 40px;
+}
+
+.footer {
+	widows: 300px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 3px;
+		margin-right: 20px;
+		width: 170px;
+		height: 50px;
+}
+
+.text-mini {
+	font-size: 12px;
+}
+
+.main-link {
+		margin-left: 30px;
+		padding: 5px 5px;
+
+	} 
+
+.text-contntent, .text {
+	font-size: 13px;
+	margin-left: 50px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+.pagination {
+	margin-left: 20px;
+	width: 150px;
+}
+
+.img-main {
+		width: 130px;
+		height: 190px;
+		margin-left: 30px;
+	}
+
+
+.page-img-fon {
+		width: 90px;
+		height: 90px;
+		margin-left: 10px;
+	}
+
+
+.aside-link {
+	font-size: 19px;
+}
+
+ .pagination li  {
+	font-size: 40px;
+}
+
+.link-paginata-string, .link-paginata-text {
+	
+	width: 90px;
+    height: 50px;
+	
+}
+
+a.link-paginata-string {
+	font-size: 40px;
+}
+
+.conteiner-main {
+	margin-top: 300px;
+	margin-right: 5%;
+	margin-left: -20%;
+
+}
+
+.fonk-img {
+	background: url('../images/san.png') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+	height: 80px;
+	width: 80px;
+}
+
+ 
+ /* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 83%;
+	margin-left: -60px;
+	margin-top: 20px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+
+}
+
+
+@media (max-width:243px) { 
+
+
+
+.logo {
+	margin-left: 100px;
+	height: 50px;
+	width: 50px;
+}
+
+.menu {
+		
+	height: 50px;
+	width: 50px;
+	margin-left: 30px;
+}
+
+.page-img-fon {
+		width: 90px;
+		height: 90px;
+		margin-left: 3px;
+	}
+
+.aside-link {
+	font-size: 15px;
+}
+
+.aside-ul {
+	margin-right: 10%;
+	width: 150px;
+}
+
+h1.main-text {
+	margin-left: -99px;
+	font-size: 7px;
+	}
+
+.text-contntent-fon {
+	margin-left: 10px;
+}
+
+.main-link-link {
+		margin-left: -900px;
+		font-size: 14px;
+	}
+
+
+ 
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 84%;
+	margin-left: -50px;
+	margin-top: 3px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+	font-size: 14px;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+
+@media (max-width:221px) { 
+
+
+
+.logo {
+	margin-left: 90px;
+	height: 50px;
+	width: 50px;
+}
+
+.card-main-page {
+	margin-right: 20%;
+}
+
+.ride {
+	margin-left: 159px;
+	margin-top: 5px;
+}
+
+
+.aside-ul {
+	margin-right: 10%;
+	width: 120px;
+}
+
+ 
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 84%;
+	margin-left: -50px;
+	margin-top: 3px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+	font-size: 14px;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+
+}
+
+
+
+
+
+
+@media (max-width:199px) { 
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+.footer {
+	background: black;
+	widows: 90%;
+	height: 50px;
+	flex: 0 0 auto; 
+}
+
+.menu {
+		
+	height: 50px;
+	width: 50px;
+	margin-left: 30px;
+}
+
+.logo {
+	margin-left: 100px;
+	height: 50px;
+	width: 50px;
+}
+
+
+
+.haider-link {
+	
+	
+	margin-left: 10px;
+	margin-top: -35px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.content-link {
+	margin-right: 89PX;
+}
+
+.card-main-page {
+	margin-right: 20%;
+}
+
+.aside-ul {
+	margin-right: 10%;
+}
+
+.ride {
+	margin-left: 100px;
+	margin-top: 5px;
+	
+}
+
+img.fonk-img {
+	height: 50px;
+	width: 50px;
+}
+
+.footer {
+	widows: 300px;
+	height: 50px;
+}
+
+.mini-card {
+		margin-left: 3px;
+		margin-right: 20px;
+		width: 160px;
+		height: 70px;
+}
+
+.text-mini {
+	font-size: 13px;
+}
+
+.main-link {
+		margin-left: 30px;
+		padding: 5px 5px;
+
+} 
+
+.text-contntent, .text {
+	font-size: 13px;
+	margin-left: 50px;
+}
+
+.text-contntent {
+	margin-bottom: 30px;
+
+}
+
+.pagination {
+	margin-left: 5px;
+	width: 150px;
+}
+
+.img-main {
+		width: 130px;
+		height: 190px;
+		margin-left: 20px;
+	}
+
+
+.page-img-fon {
+		width: 90px;
+		height: 90px;
+		margin-left: 3px;
+	}
+
+
+
+
+.aside-link {
+	font-size: 19px;
+}
+
+ .pagination li  {
+	font-size: 40px;
+}
+
+.link-paginata-string, .link-paginata-text {
+	
+	width: 60px;
+    height: 50px;
+	
+}
+
+a.link-paginata-string {
+	font-size: 40px;
+}
+
+.conteiner-main {
+	margin-top: 300px;
+	margin-right: 5%;
+	margin-left: -20%;
+
+}
+
+.fonk-img {
+	background: url('../images/san.png') no-repeat;
+	background-size: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+	height: 80px;
+	width: 80px;
+}
+
+
+
+/* выбодающие меню */
+.content-link {
+	
+	display: none;
+	flex-direction: column;
+	margin-right: 83%;
+	margin-left: -50px;
+	margin-top: 5px;
+	z-index: 100;	
+
+	
+}
+
+.haider-link {
+	background: black;
+	font-size: 14px;
+		
+}
+
+.aside-ul {
+	z-index: 1;
+}
+
+ 
+
+
+
+}

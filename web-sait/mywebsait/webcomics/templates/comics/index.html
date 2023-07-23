@@ -1,0 +1,49 @@
+{% extends 'comics/baze.html' %}
+
+{% block content %}
+<main>
+
+
+
+
+
+
+
+
+	<div class="conteiner-main">
+	
+	
+	
+	<ul class="ul-main">
+	{% for  p in posts %}
+	<li>
+		<div class="mini-card">
+			<p class="text-mini">Категрия: {{p.cat}} </p>
+			<p class="text-mini">Дата: {{p.time_update|date:"d-m-Y H:i:s"}} </p>
+		</div>
+
+		{% if p.photo %}
+		<p><img src="{{p.photo.url}}" class="img-main"></p>
+		{% endif %}
+
+
+
+	<h2 class="text" >{{p.title}}</h2>
+	<br>
+	{% autoescape on %}
+	<h3 class="text-contntent" >{{p.content|linebreaks|truncatewords:50 }}</h3>
+	{% endautoescape  %}
+	<p><a class="main-link" href="{{ p.get_absolute_url }}">Читать комиксы</a></p>
+	<hr>
+	</li>
+	<br>
+	<br>
+	{% endfor %}
+	</ul>
+	
+
+	
+	</div>
+	
+</main>
+{% endblock %}

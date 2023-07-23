@@ -1,0 +1,35 @@
+{% extends 'comics/baze.html' %}
+
+{% block content %}
+<main class="card-main-page">
+
+
+<h1 class="main-text">{{post.title}}</h1>
+
+{% if post.photo %}
+
+
+
+<p><img  src="{{ post.photo.url}}" class="page-img-fon" ></p>
+
+{% endif %}
+
+
+<h3 class="text-contntent-fon">{{post.content|linebreaks}}</h3>
+
+
+{% if post.file_pdf %}
+
+<div class="main-link-page">
+<a href="{{ post.file_pdf.url}}" target="_blank" class="main-link-link">Скачать</a>
+</div>
+
+
+{% endif %}
+
+
+
+</main>
+
+
+{% endblock %}
